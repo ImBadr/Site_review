@@ -1,0 +1,86 @@
+@media screen and (max-width:1467px) {
+    @import url(http://fonts.googleapis.com/css?family=Anton|Maven+Pro:500,700);
+    body {
+        font-family: 'Maven Pro', sans-serif;
+    }
+    h2 {
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+    }
+    .animation {
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+    }
+    .nav-controller {
+        position: fixed;
+        top: 100px;
+        right: -470px;
+        padding: 5px;
+        color: rgb(51, 51, 51);
+        border-radius: 25px;
+        font-size: 12pt;
+        cursor: pointer;
+        z-index: 30;
+    }
+    nav~.nav-controller>.controller-open {
+        display: inline-block;
+    }
+    nav~.nav-controller>.controller-close {
+        display: none;
+    }
+    nav.focus~.nav-controller>.controller-open {
+        display: none;
+        z-index: 3;
+    }
+    nav.focus~.nav-controller>.controller-close {
+        display: inline-block;
+        z-index: 0;
+    }
+    nav.animation {
+        position: fixed;
+        top: 90px;
+        margin-top: 1%;
+        right: -100%;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        height: 70%;
+        max-width: 150px;
+        text-align: right;
+        background-color: rgb(255, 255, 255);
+        box-shadow: -3px 0px 3px 0px rgba(160, 160, 160, 0.30);
+        z-index: 1;
+        overflow: auto;
+    }
+    nav.focus {
+        right: 0px;
+    }
+    nav>h4, nav>p, nav>ul {
+        padding: 0px 10px;
+    }
+    nav>h4 {
+        font-family: 'Anton', sans-serif;
+    }
+    nav>ul {
+        list-style: none;
+    }
+    nav>ul>li {
+        margin: 5px 0px;
+    }
+    nav>ul>li>a {
+        color: rgb(190, 190, 190);
+    }
+    nav>ul>li>a:hover {
+        font-size: 1.1em;
+        font-weight: 700;
+        color: rgb(51, 51, 51);
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width:1462px) {
+    .animation, .nav-controller {
+        display: none;
+    }}

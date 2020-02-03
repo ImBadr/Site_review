@@ -1,0 +1,156 @@
+@media screen and (max-width: 1467px)  {
+    body{ background-color: #f6f5f2; }
+    .corp{ background-color: white; width: 100%; margin: 0% 0%; }
+}
+
+@media screen and (max-width:500px){
+	.card{ width : 100%; display : block; margin: 10% 0%; }
+    .sidemenu .card { width: 100%; margin: 5% 0%; }
+}
+
+@media screen and (min-width:1250px){
+    
+    #label { display: none; }
+    #toggle{ display: none; }
+    /*Menu*/
+    .menuG{ background-color: white!important; width: 100%!important; border-bottom: 3px solid #103D82!important; text-align: center!important;}
+    .menuG ul { width: 100%!important; margin: 0% auto!important; }
+    .menuG li{ width: 100%!important; font-size:13px!important; }
+    .menuG ul li{ display: inline-block!important; margin: 0% auto!important; padding: 0% 1%!important; width: auto!important; height: 50px!important; line-height: 50px!important; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important; font-size: 0.9em!important; }
+    .menuG ul li a:hover { text-decoration: none!important; }
+    .menuG ul li a { color:black!important; }
+
+    /*sous-menu*/
+    .menuG > ul > li > ul > li > a:hover{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important; }
+    .menuG ul li ul{ display: none!important; height: auto!important; padding: 0px!important; margin: 0px -1%!important; border: 0px!important; position: absolute!important; width: 225px!important; z-index: 200!important; }
+    .menuG ul li:hover ul{ display: block!important; }
+
+    #SM li{ width: 250px!important; }
+    #SMAT > li{ width: 300px!important; }
+
+    .menuG ul li ul li { background-color: white!important; display: block!important; margin: 0px!important; padding: 0px!important; width: 228px!important; }
+    .menuG ul li ul a{ color: black!important; display: block!important; height: 30px!important; font-size: 15px!important; font-style: normal!important; margin: 0px!important; padding: 0px 10px 0px 15px!important; text-align: left!important; font-size: 1em!important; }
+
+    /*sous-sous-menu*/
+    .menuG ul li ul li ul li { display: none!important;  background-color: white!important; }
+    .menuG ul li ul li:hover ul li{ display: block!important; }
+    .menuG ul li ul li:hover ul li a{ font-size: 1.2em!important; }
+    .menuG ul li ul li ul{ height: auto!important; padding: 0px!important; border: 0px!important; margin-left: 225px!important; margin-top: -30px!important; position: absolute!important; z-index: 200!important; float: none!important; } 
+
+    #InterMenu { height: auto!important; padding: 0px!important; border: 0px!important; margin-left: -228px!important; margin-top: -30px!important; position: absolute!important; width: 225px!important; z-index: 200!important; float: none!important; }
+    #SSM li{ width: 378px!important; }
+    #SSMAM li{ width: 320px!important; }
+    #SM li ul li{ margin-left: 22px!important; }
+    #SMAT > li > ul > li{ margin-left: 72px!important; }
+
+    /*Accueil*/
+    .accueil:hover{ background-color: #103D82!important; }
+    .accueil:hover > a{ color: white!important;	 }
+
+    /*Vie Scolaire*/
+    .vie_scolaire:hover{ background-color: #a20909!important; }
+    .vie_scolaire:hover > a{ color: white!important;	 }
+    .vie_scolaire > ul > li{ border-left: 3px solid #a20909!important; }
+    .vie_scolaire > ul > li:hover{ background-color:#a20909!important; }
+    .vie_scolaire > ul > li:hover > a{ color: white!important; }
+    .vie_scolaire > ul > li > ul > li:hover{ background-color:#a20909!important; }
+    .vie_scolaire > ul > li > ul > li:hover > a{ color: white!important; }
+    .vie_scolaire > ul > li > ul > li{ border-left: 3px solid #a20909!important; }
+
+    /*Eau et assainissement*/
+    .eau_et_assainissement:hover{ background-color: #2596aa!important; }
+    .eau_et_assainissement:hover > a{ color: white!important;	 }
+    .eau_et_assainissement > ul > li{ border-left: 3px solid #2596aa!important; }
+    .eau_et_assainissement > ul > li:hover{ background-color:#2596aa!important; }
+    .eau_et_assainissement > ul > li:hover > a{ color: white!important; }
+    .eau_et_assainissement > ul > li > ul > li:hover{ background-color:#2596aa!important; }
+    .eau_et_assainissement > ul > li > ul > li:hover > a{ color: white!important; }
+    .eau_et_assainissement > ul > li > ul > li{ border-left: 3px solid #2596aa!important; }
+
+    /*Emploi et économie*/
+    .emploi_et_economie:hover{ background-color: #c6431b!important; }
+    .emploi_et_economie:hover > a{ color: white!important;	 }
+    .emploi_et_economie > ul > li{ border-left: 3px solid #c6431b!important; }
+    .emploi_et_economie > ul > li:hover{ background-color:#c6431b!important; }
+    .emploi_et_economie > ul > li:hover > a{ color: white!important; }
+    .emploi_et_economie > ul > li > ul > li:hover{ background-color:#c6431b!important; }
+    .emploi_et_economie > ul > li > ul > li:hover > a{ color: white!important; }
+    .emploi_et_economie > ul > li > ul > li{ border-left: 3px solid #c6431b!important; }
+
+    /*Amenagement du Territoire*/
+    .amenagement_du_territoire:hover{ background-color: #5f72b2!important; }
+    .amenagement_du_territoire:hover > a{ color: white!important;	 }
+    .amenagement_du_territoire > ul > li{ border-left: 3px solid #5f72b2!important; }
+    .amenagement_du_territoire > ul > li:hover{ background-color:#5f72b2!important; }
+    .amenagement_du_territoire > ul > li:hover > a{ color: white!important; }
+    .amenagement_du_territoire > ul > li > ul > li:hover{ background-color:#5f72b2!important; }
+    .amenagement_du_territoire > ul > li > ul > li:hover > a{ color: white!important; }
+    .amenagement_du_territoire > ul > li > ul > li{ border-left: 3px solid #5f72b2!important; }
+
+    /*Tourisme*/
+    .tourisme:hover{ background-color: #d5872e!important; }
+    .tourisme:hover > a{ color: white!important;	 }
+    .tourisme > ul > li{ border-left: 3px solid #d5872e!important; }
+    .tourisme > ul > li:hover{ background-color:#d5872e!important; }
+    .tourisme > ul > li:hover > a{ color: white!important; }
+    .tourisme > ul > li > ul > li:hover{ background-color:#d5872e!important; }
+    .tourisme > ul > li > ul > li:hover > a{ color: white!important; }
+    .tourisme > ul > li > ul > li{ border-left: 3px solid #d5872e!important; }
+
+    /*Environnement*/
+    .environnement:hover{ background-color: #2aa868!important; }
+    .environnement:hover > a{ color: white!important; }
+    .environnement > ul > li{ border-left: 3px solid #2aa868!important; }
+    .environnement > ul > li:hover{ background-color:#2aa868!important; }
+    .environnement > ul > li:hover > a{ color: white!important; }
+    .environnement > ul > li > ul > li:hover{ background-color:#2aa868!important; }
+    .environnement > ul > li > ul > li:hover > a{ color: white!important; }
+    .environnement > ul > li > ul > li{ border-left: 3px solid #2aa868!important; }
+
+    /*L'intercommunalité*/
+    .l_intercommunalite:hover{ background-color: #103d82!important; }
+    .l_intercommunalite:hover > a{ color: white!important; }
+    .l_intercommunalite > ul > li{ border-right: 3px solid #103d82!important; }
+    .l_intercommunalite > ul > li:hover{ background-color:#103d82!important; }
+    .l_intercommunalite > ul > li:hover > a{ color: white!important; }
+    .l_intercommunalite > ul > li > ul > li:hover{ background-color:#103d82!important; }
+    .l_intercommunalite > ul > li > ul > li:hover > a{ color: white!important; }
+    .l_intercommunalite > ul > li > ul > li{ border-right: 3px solid #103d82!important; }
+}
+
+@media screen and (max-width:1249px){
+    #label { background-color: #103D82; margin: 0 40px 0 0; font-size: 26px; line-height: 70px; width: 26px; float: left; display: block; cursor: pointer; color: white;}
+    #toggle{ display: none; }
+    .menuG{ display: none; }
+    #toggle:checked + .menuG { display: block; }
+
+    .menuG{ background-color: #103D82; width: 100%; text-align: center; text-decoration: none; }
+    .menuG ul { width: 100%; margin: 0% auto; }
+    .menuG li{ width: 100%; font-size:1.6px; }
+    .menuG ul li{ display: block;padding: 0% 1%; width: auto; height: 50px; line-height: 50px; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-size: 0.9em; }
+    
+    .menuG ul li a { color:white; } 
+    .menuG > ul > li > ul > li > a:hover{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; }
+    .menuG ul li ul{ display: none; height: auto; padding: 0px; margin: 0px -1%; border: 0px; position: relative; width: 100%;}
+    .menuG ul li:hover ul{ display: block; }
+    .menuG ul li ul li { margin: 0px; padding: 0px;background-color: rgb(59, 102, 167); display: block; width: 100%; }
+    .menuG ul li ul a{padding: 0px 10px 0px 0px; color: white; display: block; height: 30px; font-size: 1.4em; font-style: normal;  text-align: center; font-size: 1em; }
+
+
+    .menuG ul li ul li ul li { display: none; }
+    .menuG ul li ul li:hover ul li{ display: block;}
+    .menuG ul li ul li:hover ul li a{ font-size: 1.2em; color: white;}
+    .menuG ul li ul li ul{ float: none; margin-left: 5%;height: auto;   top: 20px;} 
+    .menuG > ul > li > ul > li > ul > li{ background-color: #103D82; }
+    
+    .accueil:hover > a{ color: white; }
+
+    .menuG:hover > a{ color: white;}
+    .menuG > ul > li:hover{ background-color: rgb(61, 99, 156); }
+    .menuG > ul > li:hover > a{ color: white; }
+    .menuG > ul > li > ul > li:hover{ background-color: rgb(99, 127, 168); }
+    .menuG > ul > li > ul > li > ul > li:hover{ background-color: rgb(56, 93, 150);}
+    
+    .menuG > ul > li > ul > li > ul > li:hover > a{ color: white;}
+    .menuG > ul > li > ul > li:hover > a{ color: white; }
+}

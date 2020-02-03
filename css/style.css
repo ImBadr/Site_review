@@ -1,0 +1,33 @@
+
+body{ background-color: #f6f5f2;}
+.corp{background-color: white;	width: 86%;	margin :0% 7%;	box-shadow: 0 0 20px 1px rgba(168,163,168,0.38);}
+
+.entete_fixed{position: sticky;	top: 0;	z-index: 5;}
+.bandeau{background-color: #103D82;	height: 90px;}
+.bandeau img{width: 150px;	height: 72px;	float: left;	margin-top: 0.5%;	margin-left: 2%;}
+
+.card { box-shadow:  0px 0px 24px 1px rgba(168,163,168,0.38); display:inline-block; margin-left: 5%; margin-top: 2%; width: 18rem; width: 40%;	background-color :white;}
+.sidemenu .card {display:inline-block; width: 60%; margin: 5%; margin-bottom: 10%; }
+.card-header { background-color: #103d82; border-color: #103d82; color: white; font-size: 1.1em; }
+.card-text { font-size:16px; }
+
+h1 {color: #103D82;	margin-left : 3%;	margin-top: 3%;	font-size: 1.4em;}
+footer { background-color : #28292a; width:100%; margin-top: 10%; margin-bottom: -20%; color: white; font-size: 13px; }
+
+.bas_page { padding-top: 2%; padding-bottom: 2%; display: grid;	grid-gap: 10px;	grid-template-columns: repeat(4, 1fr); text-align: center;}
+
+.partie1 { grid-column: 1/2; border-right: 1px dashed white;}
+.partie2 { grid-column: 2/3; border-right: 1px dashed white;}
+.partie3 { grid-column: 3/4; border-right: 1px dashed white;}
+.partie4 { grid-column: 4/5; }
+
+@media all and (max-width: 900px) {
+	.bas_page {	display : block;text-align: center;	}
+}
+
+.carousel-example-2{ width: 100%; font-size:15px; }
+.Liens { color : white; font-size: 13px; text-decoration: underline white; }
+
+.map { width: 100%; margin: 1% 0%; }
+.map__list>ul { display: inline-block; display: table-cell;padding: 0% 5%; }
+.map__list { text-align: left; }

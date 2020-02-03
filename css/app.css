@@ -1,0 +1,14 @@
+
+.map{overflow: hidden; }
+
+.map__image{width: 20%; float: left; }
+
+.map__image path{ fill: #103d82; stroke: #ffffff; stroke-width: 1px; transition: fill 0.3s; }
+
+.map__image .is_active path{fill: #75a2e7; }
+
+.map__list{width: 50%; float: right; }
+
+.map__list a{ color: inherit; }
+
+.map__list a.is_active{color: #103d82; font-weight: bold; }

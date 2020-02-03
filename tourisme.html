@@ -1,0 +1,589 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8">
+	<title>Tourisme</title>
+	<!-- Bootstrap core CSS -->
+	<link href="MDB/css/bootstrap.min.css" rel="stylesheet">
+	<!-- <link href="MDB/css/bootstrap.min.css" rel="stylesheet"> -->
+	<!-- Material Design Bootstrap -->
+	<link href="MDB/css/mdb.min.css" rel="stylesheet">
+	<script type="text/javascript" src="MDB/js/jquery-3.3.1.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="MDB/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- CSS Link -->
+	<link rel="stylesheet" type="text/css" href="styletourisme.css" />
+	<link rel="stylesheet" type="text/css" href="stylesResponsive.css">
+	<link rel="stylesheet" type="text/css" href="style_arvv.css">
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="MDB/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="corp">
+
+    <!-- Logo Bayeux Intercom -->
+    <div class="entete_fixed">
+      <div class="bandeau">
+        <a href="accueil.html"><img src="images/logo-blanc.png"></a>
+      </div>
+      	<!-- sons pour le menu audiodescription : -->
+			<audio src="sons/Accueil.mp3" id="sonAcc" type="audio/mp3"></audio>
+			<audio src="sons/Amenagement.mp3" id="sonAm" type="audio/mp3"></audio>
+			<audio src="sons/Eau.mp3" id="sonEau" type="audio/mp3"></audio>
+			<audio src="sons/EmploiEco.mp3" id="sonEmpl" type="audio/mp3"></audio>
+			<audio src="sons/Environnement.mp3" id="sonEnv" type="audio/mp3"></audio>
+			<audio src="sons/Intercommunalite.mp3" id="sonInter" type="audio/mp3"></audio>
+			<audio src="sons/Tourisme.mp3" id="sonTour" type="audio/mp3"></audio>
+			<audio src="sons/VieScolaire.mp3" id="sonVie" type="audio/mp3"></audio>
+
+			<label class="fas fa-bars fa-2x" id="label" for="toggle"></label>
+			<input id="toggle" type="checkbox" />
+			<!--	Menu	-->
+			<div class="menuG">
+				<ul>
+					<li class="accueil"><a href="accueil.html"><div id="AccueilAudio">Accueil</div></a></li>
+					<li class="vie_scolaire " id="VieAudio"><a href="https://www.bayeux-intercom.fr/vie-scolaire/">Vie
+							scolaire</a>
+						<ul>
+							<li><a href="https://www.bayeux-intercom.fr/vie-scolaire/espace-famille/">Espace famille</a>
+							</li>
+							<li class=""><a
+									href="https://www.bayeux-intercom.fr/vie-scolaire/inscriptions/">Inscriptions</a>
+								<ul>
+									<li><a
+											href="https://www.bayeux-intercom.fr/vie-scolaire/inscriptions/inscriptions-scolaires/">Inscriptions
+											scolaires</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/vie-scolaire/inscriptions/inscription-periscolaire/">Inscriptions
+											périscolaires</a></li>
+								</ul>
+							</li>
+							<li class=""><a
+									href="https://www.bayeux-intercom.fr/vie-scolaire/etablissements-scolaires/">Établissements</a>
+								<ul>
+									<li><a
+											href="https://www.bayeux-intercom.fr/vie-scolaire/etablissements-scolaires/les-ecoles-elementaires/">Ecoles
+											publiques</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/vie-scolaire/etablissements-scolaires/les-ecoles-privees/">Ecoles
+											privées</a>
+									</li>
+								</ul>
+							</li>
+							<li class=""><a
+									href="https://www.bayeux-intercom.fr/vie-scolaire/restauration-scolaire/">Restauration</a>
+								<ul>
+									<li><a
+											href="https://www.bayeux-intercom.fr/vie-scolaire/restauration-scolaire/les-menus/">Menus</a>
+									</li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/vie-scolaire/restauration-scolaire/les-produits/">Produits
+											et éveil à la nutrition</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/vie-scolaire/restauration-scolaire/les-allergies-alimentaires/">Allergies
+											alimentaires</a></li>
+								</ul>
+							</li>
+							<li class=""><a
+									href="https://www.bayeux-intercom.fr/vie-scolaire/vie-scolaire-et-periscolaire/">Vie
+									scolaire et périscolaire</a>
+								<ul>
+									<li><a
+											href="https://www.bayeux-intercom.fr/vie-scolaire/vie-scolaire-et-periscolaire/laccueil-periscolaire/">Accueil
+											périscolaire</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/vie-scolaire/vie-scolaire-et-periscolaire/le-reglement-periscolaire/">Règlement
+											périscolaire</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/vie-scolaire/vie-scolaire-et-periscolaire/loisirs-et-animations-scolaires/">Loisirs
+											et animations scolaires</a></li>
+								</ul>
+							</li>
+							<li class=""><a href="https://www.bayeux-intercom.fr/vie-scolaire/tarifs/">Tarifs des
+									accueils périscolaires</a>
+								<ul id="SSM">
+									<li><a
+											href="https://www.bayeux-intercom.fr/vie-scolaire/tarifs/tarifs-de-la-restauration-scolaire/">Tarifs
+											de la restauration scolaire</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/vie-scolaire/tarifs/tarifs-des-accueils-matin-et-soir-et-de-letude-surveillee/">Tarifs
+											des accueils matin et soir et de l'étude surveillée</a></li>
+									<li><a href="https://www.bayeux-intercom.fr/vie-scolaire/tarifs/mode-de-paiement/">Modes
+											de paiement</a></li>
+								</ul>
+							</li>
+							<li><a href="https://www.bayeux-intercom.fr/vie-scolaire/calendrier-2019-2020/">Calendrier
+									2019-2020</a></li>
+							<li><a href="https://www.bayeux-intercom.fr/vie-scolaire/transports-scolaires/">Transports
+									scolaires</a></li>
+						</ul>
+					</li>
+					<li class="eau_et_assainissement "><a
+							href="https://www.bayeux-intercom.fr/eau-et-assainissement/"><div id="EauAudio">Eau et assainissement</div></a>
+						<ul id="SM">
+							<li class=""><a
+									href="https://www.bayeux-intercom.fr/eau-et-assainissement/facturation/">Facturation</a>
+								<ul id="SSM">
+									<li><a
+											href="https://www.bayeux-intercom.fr/eau-et-assainissement/facturation/comprendre-ma-facture-et-son-paiement/">Comprendre
+											ma facture et son paiement</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/eau-et-assainissement/facturation/les-prix-et-tarifs/">Les
+											prix et tarifs</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/eau-et-assainissement/facturation/souscrireresilier-un-contrat/">Souscrire/résilier
+											un contrat</a></li>
+								</ul>
+							</li>
+							<li class=""><a href="https://www.bayeux-intercom.fr/eau-et-assainissement/eau-potable/">Eau
+									potable</a>
+								<ul>
+									<li><a
+											href="https://www.bayeux-intercom.fr/eau-et-assainissement/eau-potable/raccordement/">Raccordement</a>
+									</li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/eau-et-assainissement/eau-potable/lire-mon-compteur/">Lire
+											mon compteur</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/eau-et-assainissement/eau-potable/qualite-de-leau/">Qualité
+											de l'eau</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/eau-et-assainissement/eau-potable/preservation-de-la-ressource-en-eau/">Préservation
+											de la ressource en eau</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/eau-et-assainissement/eau-potable/les-equipements-deau-potable/">Les
+											équipements d'eau potable</a></li>
+								</ul>
+							</li>
+							<li class=""><a
+									href="https://www.bayeux-intercom.fr/eau-et-assainissement/assainissement-collectif/">Assainissement
+									collectif</a>
+								<ul>
+									<li><a
+											href="https://www.bayeux-intercom.fr/eau-et-assainissement/assainissement-collectif/raccordement0/">Raccordement</a>
+									</li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/eau-et-assainissement/assainissement-collectif/confirmite-des-rejets/">Conformité
+											des rejets</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/eau-et-assainissement/assainissement-collectif/les-equipements-dassainissement/">Les
+											équipements d'assainissement</a></li>
+								</ul>
+							</li>
+							<li class=""><a
+									href="https://www.bayeux-intercom.fr/eau-et-assainissement/assainissement-non-collectif/">Assainissement
+									non collectif</a>
+								<ul>
+									<li><a
+											href="https://www.bayeux-intercom.fr/eau-et-assainissement/assainissement-non-collectif/mon-projet-dinstallation/">Mon
+											projet d'installation</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/eau-et-assainissement/assainissement-non-collectif/les-aides-financieres/">Les
+											aides financières</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/eau-et-assainissement/assainissement-non-collectif/assistance-et-conseils/">Assistance
+											et conseils</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/eau-et-assainissement/assainissement-non-collectif/les-controles-dinstallation/">Les
+											contrôles d'installation</a></li>
+								</ul>
+							</li>
+							<li><a href="https://www.bayeux-intercom.fr/eau-et-assainissement/defense-incendie/">Défense
+									incendie</a></li>
+							<li><a
+									href="https://www.bayeux-intercom.fr/eau-et-assainissement/contact-et-numeros-durgence/">Contact
+									et numéros d'urgence</a></li>
+							<li><a
+									href="https://www.bayeux-intercom.fr/eau-et-assainissement/formulaires-eau-et-assainissement/">Formulaires
+									eau et assainissement</a></li>
+						</ul>
+					</li>
+					<li class="emploi_et_economie " ><a
+							href="https://www.bayeux-intercom.fr/emploi-et-economie/notre-equipe/"><div id="EmploiAudio">Emploi et
+								économie</div></a>
+						<ul>
+							<li class=""><a
+									href="https://www.bayeux-intercom.fr/emploi-et-economie/environnement-economique/un-environnement-economique-dynamique/">Environnement
+									économique</a>
+								<ul id="SSM">
+									<li><a
+											href="https://www.bayeux-intercom.fr/emploi-et-economie/environnement-economique/un-environnement-economique-dynamique/">Un
+											environnement économique dynamique</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/emploi-et-economie/environnement-economique/secteurs-dactivites/">Secteurs
+											d'activité</a></li>
+								</ul>
+							</li>
+							<li class=""><a href="https://www.bayeux-intercom.fr/emploi-et-economie/creer/">Créer</a>
+								<ul id="SSM">
+									<li><a
+											href="https://www.bayeux-intercom.fr/emploi-et-economie/creer/pepiniere-dentreprise-et-espace-de-coworking/">Pépinière
+											d'entreprise et espace de coworking</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/emploi-et-economie/creer/conseil-et-orientation/">Conseil
+											et orientation</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/emploi-et-economie/creer/accompagnement-financier/">Accompagnement
+											financier</a></li>
+								</ul>
+							</li>
+							<li class=""><a
+									href="https://www.bayeux-intercom.fr/emploi-et-economie/simplanter-et-se-developper/">S'implanter
+									et se développer</a>
+								<ul id="SSM">
+									<li><a
+											href="https://www.bayeux-intercom.fr/emploi-et-economie/simplanter-et-se-developper/zones-dactivites/">Zones
+											d'activités</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/emploi-et-economie/creer/pepiniere-dentreprise-et-espace-de-coworking/">Pépinière
+											d'entreprise et espace de coworking</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/emploi-et-economie/simplanter-et-se-developper/ateliers-relais/">Ateliers
+											relais</a></li>
+								</ul>
+							</li>
+							<li class=""><a
+									href="https://www.bayeux-intercom.fr/emploi-et-economie/vie-commerciale/">Vie
+									commerciale</a>
+								<ul id="SSM">
+									<li><a
+											href="https://www.bayeux-intercom.fr/emploi-et-economie/vie-commerciale/un-reseau-dacteurs/">Un
+											réseau d'acteurs</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/emploi-et-economie/vie-commerciale/legislation-relative-aux-commerces/">Législation
+											relative aux commerces</a></li>
+								</ul>
+							</li>
+							<li class=""><a
+									href="https://www.bayeux-intercom.fr/emploi-et-economie/emploi/un-bassin-pour-lemploi/">Emploi</a>
+								<ul>
+									<li><a
+											href="https://www.bayeux-intercom.fr/emploi-et-economie/emploi/un-bassin-pour-lemploi/">Un
+											bassin pour l'emploi</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/emploi-et-economie/emploi/accompagnateurs-pour-lemploi/">Accompagnateurs
+											pour l'emploi</a></li>
+								</ul>
+							</li>
+							<li><a href="https://www.bayeux-intercom.fr/emploi-et-economie/notre-equipe/">Notre
+									équipe</a></li>
+						</ul>
+					</li>
+					<li class="amenagement_du_territoire "><a
+							href="https://www.bayeux-intercom.fr/amenagement-du-territoire/plui/"><div id="AmenagementAudio">Aménagement du
+								territoire</div> </a>
+						<ul id="SMAT">
+							<li class=""><a href="https://www.bayeux-intercom.fr/amenagement-du-territoire/plui/">Plan
+									local d'urbanisme intercommunal</a>
+								<ul id="SSMAM">
+									<li><a
+											href="https://www.bayeux-intercom.fr/amenagement-du-territoire/plui/quest-ce-quun-plui/">Qu'est-ce
+											qu'un PLUI ?</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/amenagement-du-territoire/plui/comment-est-il-elabore/">Comment
+											est-il élaboré ?</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/amenagement-du-territoire/plui/ou-en-sommes-nous/">Où
+											en sommes-nous ?</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/amenagement-du-territoire/plui/consulter-le-dossier-denquete-publique/">Consulter
+											le dossier d'enquête publique</a></li>
+								</ul>
+							</li>
+							<li class=""><a
+									href="https://www.bayeux-intercom.fr/amenagement-du-territoire/reglement-local-de-publicite-intercommunal/">Règlement
+									local de publicité intercommunal</a>
+								<ul id="SSMAM">
+									<li><a
+											href="https://www.bayeux-intercom.fr/amenagement-du-territoire/reglement-local-de-publicite-intercommunal/quest-ce-quun-rlpi/">Qu'est-ce
+											qu'un RLPI ?</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/amenagement-du-territoire/reglement-local-de-publicite-intercommunal/avant-derniere-etape-dans-lelaboration-du-rlpi/">Avant
+											dernière étape dans l'élaboration du RLPI</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/amenagement-du-territoire/reglement-local-de-publicite-intercommunal/comment-contribuer-a-lenquete-publique/">Comment
+											contribuer à l'enquête publique ?</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/amenagement-du-territoire/reglement-local-de-publicite-intercommunal/consulter-le-dossier-denquete-publique/">Consulter
+											le dossier d'enquête publique</a></li>
+								</ul>
+							</li>
+							<li class=""><a
+									href="https://www.bayeux-intercom.fr/amenagement-du-territoire/grands-projets/piscine/">Grands
+									équipements</a>
+								<ul>
+									<li><a
+											href="https://www.bayeux-intercom.fr/amenagement-du-territoire/grands-projets/piscine/">Auréo</a>
+									</li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/amenagement-du-territoire/grands-projets/mediatheque/">Les
+											7 lieux</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/amenagement-du-territoire/grands-projets/vitamines/">Vitamines</a>
+									</li>
+								</ul>
+							</li>
+							<li class=""><a
+									href="https://www.bayeux-intercom.fr/amenagement-du-territoire/habitat-et-opah/">Habitat</a>
+								<ul id="SSMAM">
+									<li><a
+											href="https://www.bayeux-intercom.fr/amenagement-du-territoire/habitat-et-opah/opah-de-bayeux-intercom/">Aides
+											pour l'amélioration de son logement</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/amenagement-du-territoire/habitat-et-opah/architecte-conseil-du-caue/">Architecte
+											conseil du CAUE</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="tourisme "><a href="#"><div id="TourismeAudio">Tourisme</div></a>
+						<ul>
+							<li><a href="https://www.bayeux-intercom.fr/tourisme/taxe-de-sejour/">Taxe de séjour</a>
+							</li>
+							<li><a href="https://www.bayeux-intercom.fr/tourisme/patrimoine-historique/">Patrimoine
+									historique</a></li>
+						</ul>
+					</li>
+					<li class="environnement "><a
+							href="https://www.bayeux-intercom.fr/environnement/"><div id="EnvironAudio">Environnement</div></a>
+						<ul>
+							<li><a href="https://www.bayeux-intercom.fr/environnement/frelon-asiatique/">Frelon
+									asiatique</a></li>
+							<li><a href="https://www.bayeux-intercom.fr/environnement/jardinage-au-naturel/">Jardinage
+									au naturel</a></li>
+							<li><a href="https://www.bayeux-intercom.fr/environnement/habitat-et-economies-denergie/">Habitat
+									et économies d'énergie</a></li>
+							<li><a href="https://www.bayeux-intercom.fr/environnement/restauration-de-mares/">Restauration
+									de mares</a></li>
+						</ul>
+					</li>
+					<li class="l_intercommunalite "><a
+							href="https://www.bayeux-intercom.fr/la-communaute-de-communes/linstitution-communautaire/"><div  id="IntercomAudio">L'intercommunalité</div></a>
+						<ul>
+							<li class=""><a
+									href="https://www.bayeux-intercom.fr/la-communaute-de-communes/linstitution-communautaire/">L'institution
+									communautaire</a>
+								<ul id="InterMenu">
+									<li><a
+											href="https://www.bayeux-intercom.fr/la-communaute-de-communes/linstitution-communautaire/lorganisation-institutionnelle/">La
+											gouvervance</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/la-communaute-de-communes/linstitution-communautaire/les-competences-statuaires/">Les
+											compétences statuaires</a></li>
+								</ul>
+							</li>
+							<li class=""><a
+									href="https://www.bayeux-intercom.fr/la-communaute-de-communes/le-conseil-communautaire/">Le
+									Conseil communautaire</a>
+								<ul id="InterMenu">
+									<li><a
+											href="https://www.bayeux-intercom.fr/la-communaute-de-communes/le-conseil-communautaire/les-ordres-du-jour/">Les
+											ordres du jour</a></li>
+									<li><a
+											href="https://www.bayeux-intercom.fr/la-communaute-de-communes/le-conseil-communautaire/les-comptes-rendus/">Les
+											comptes-rendus</a></li>
+								</ul>
+							</li>
+							<li><a href="https://www.bayeux-intercom.fr/la-communaute-de-communes/les-36-communes/">Les
+									36 communes</a></li>
+							<li><a href="https://www.bayeux-intercom.fr/la-communaute-de-communes/les-services/">Les
+									services</a></li>
+							<li><a href="https://www.bayeux-intercom.fr/la-communaute-de-communes/les-finances/">Les
+									budgets</a></li>
+							<li><a href="https://www.bayeux-intercom.fr/la-communaute-de-communes/marches-publics/">Les
+									marchés publics</a></li>
+							<li><a href="https://www.bayeux-intercom.fr/la-communaute-de-communes/recrutements/">Les
+									recrutements</a></li>
+							<li><a href="https://www.bayeux-intercom.fr/la-communaute-de-communes/nous-contacter/">Nous
+									contacter</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!-- script pour les Sons -->
+			<script type="text/javascript" src="js/scriptsAudiodescr.js"></script>
+			<!--    FIN	Menu	-->
+    </div>
+
+    <div class="pagetourisme">
+      <!--- image tourisme --->
+      <div class="headt">
+        <img src="images/tourisme.jpg" alt="accueuil tourisme">
+      </div>
+      <!---- Navigateur rapide----->
+
+      <div class="navigationt">
+        <ol>
+          <p>
+            <a href="accueil.html">Accueil</a>
+            >
+            <!--- ceci est un texte --->
+            <a href="tourisme.html">Tourisme</a>
+          </p>
+        </ol>
+      </div>
+
+      <div class="linkt">
+        <!-----Elements Tourisme ------>
+
+        <div class="textt">
+          <h2> Le service de développement Touristique </h2>
+
+          <p> Bayeux Intercom intervient dans le domaine du tourisme depuis 1998.</p>
+
+          <p>Le service Développement Touristique de Bayeux Intercom gère en direct le plan pluriannuel d’aménagement
+            touristique, ainsi que la collecte de la taxe de séjour.</p>
+          <ul>
+            <li>
+              <p>Le Plan pluriannuel d’aménagement touristique prévoit la réalisation de projets structurants : </p>
+            </li>
+            <div class="listimgt">
+              <div class="listt">
+                <p><a href="http://www.bayeux-intercom.fr/tourisme/chemins-de-randonnee/" target="_blank"> - itinéraires
+                    de randonnée à pied</a></p>
+                <p><a href="http://www.bessin-normandie.com/tourisme/loisirs/randonnees/a-cheval" target="_blank"> -
+                    itinéraire de randonnée à cheval</a></p>
+                <p><a href="http://www.bessin-normandie.com/tourisme/loisirs/randonnees/a-velo" target="_blank"> -
+                    itinéraire de randonnée à vélo</a></p>
+                <p><a href="http://www.bayeux-intercom.fr/tourisme/patrimoine-historique/" target="_blank"> -
+                    valorisation du patrimoine villageois</a></p>
+                <p> - Amélioration de l’accueil des visiteurs à la Batterie de Longues-sur-Mer ou des plaisanciers en
+                  escale à Port-en-Bessin-Huppain …</p>
+              </div>
+              <div class="imaget">
+                <img src="images/vélo.jpg" alt="randonnée en vélo">
+              </div>
+            </div>
+            <br>
+            <li>
+              <p>La taxe de séjour est collectée par les hébergeurs et permet de faire financer par les touristes la
+                politique de développement touristique du territoire. <a
+                  href="http://www.bayeux-intercom.fr/tourisme/taxe-de-sejour/" target="_blank">Consulter ici</a> une
+                liste de Questions/Réponses fréquentes sur la taxe de séjour.</p>
+            </li>
+            <li>
+              <p><a href="http://www.bayeux-intercom.fr/tourisme/patrimoine-historique/" target="_blank">Découvrez
+                  ici</a> une carte intéractive présentant les différentes communes ainsi que leur patrimoine
+                historique.</p>
+            </li>
+          </ul>
+
+          <h2>L'Office de Tourisme Intercommunal</h2>
+
+          <p>Bayeux Intercom délègue par ailleurs à l’office de tourisme de Bayeux Intercom (association 1901) :</p>
+          <ul>
+            <li>
+              <p>Les missions d’accueil et d’information (offices de tourisme à Bayeux, Longues-sur-Mer,
+                Port-en-Bessin-Huppain et Arromanches (à compter du 1er janvier 2017),</p>
+            </li>
+
+            <li>
+              <p>La promotion de la destination ainsi que l’animation à destination des touristes (DDay Festival
+                Normandy, Rendez-vous à la Cathédrale, Feux d’artifice de la tour Vauban, Soirs d'Eté à l'Abbaye et la
+                Cathédrale de Guillaume), ainsi que les visites guidées de la cathédrale, du Vieux Bayeux et de la
+                Batterie de Longues-sur-mer.</p>
+            </li>
+
+            <li>
+              <p>Visitez le site de l'<a href="http://bayeux-bessin-tourisme.com/">Office du Tourisme Intercommunal de
+                  Bayeux Intercom</a> pour en savoir plus.</p>
+            </li>
+          </ul>
+        </div>
+        <!------Bulles d'information-------->
+        <div class="empcardt">
+          <div class="cardt">
+            <!------temporaire------>
+            <div class="card-title">
+              <h5><img src="images/call.png" alt="Icone de téléphone"> Contacter le service Développement Touristique
+              </h5>
+            </div>
+            <p class="card-text"><b>Ligne directe :</b> 02 31 51 65 30</p>
+          </div>
+
+          <div class="cardt">
+            <!------temporaire------>
+            <div class="card-title">
+              <h5><img src="images/call.png" alt="Icone de téléphone"> Contacter l'Office de Tourisme Intercommunal</h5>
+            </div>
+            <p class="card-text"><b>Bureau de Bayeux :</b> 02 31 51 28 28</p>
+            <p class="card-text"><b>Bureau de Port en Bessin-Huppain :</b> 02 31 22 45 80</p>
+            <p class="card-text"><b>Bureau de Longues sur Mer :</b> 02 31 21 46 87</p>
+            <p class="card-text"><b>Mail : </b><a href="mailto:info@bayeux-tourism.com">info@bayeux-tourism.com</a></p>
+          </div>
+
+          <div class="cardt">
+            <!------temporaire------>
+            <div class="card-title">
+              <h5><img src="images/lettre.png" alt="Icone lettre"> Nous contacter</h5>
+            </div>
+            <!---Rajout d'un lien pour le formulaire --->
+            <p class="card-text">Acceder au <a
+                href="https://www.bayeux-intercom.fr/la-communaute-de-communes/nous-contacter/">formulaire de
+                demande</a></p>
+          </div>
+
+          <div class="cardt">
+            <!------temporaire------>
+            <div class="card-title">
+              <h5>Site de l'office du tourisme</h5>
+            </div>
+            <p class="card-text"><a href="https://www.bayeux-bessin-tourisme.com">Bayeux Bessin tourisme</a></p>
+          </div>
+        </div>
+      </div>
+      <p style="text-align:right;margin-right: 10%;"><a href="#" class="hautdepaget">Retour haut de page</a></p>
+    </div>
+
+    <!------Bas de page-------->
+    <footer>
+      <div class="bas_page">
+        <div class="partie1">
+          <h4><strong>Liens rapides</strong></h4>
+          <a class="Liens" href=""> > PLAN DU SITE </a> <br>
+          <a class="Liens" href=""> > MENTIONS LEGALES </a> <br>
+          <a class="Liens" href=""> > HORAIRES & PLAN D'ACCES </a> <br>
+          <a class="Liens" href=""> > CONTACT </a> <br>
+          <a class="Liens" href=""> > ACCESSIBILITE </a> <br>
+        </div>
+        <div class="partie2">
+          <h4><strong>Boîte à outils</strong></h4>
+          <a href="/infos/contact/"><img src="images/mail.png"></a>
+          <a href="?id=256&type=100"><img src="images/rss.png"></a>
+          <a href="https://www.bayeux.fr/fr"><img src="images/villebayeux.png"></a>
+        </div>
+        <div class="partie3">
+          <h4><strong>Localisation</strong></h4>
+          <p>4 place Gauquelin Despallières</p>
+          <p>14400 BAYEUX</p>
+          <p><strong>02 31 51 63 00</strong></p>
+          <p>Du Lundi au Vendredi
+            <br />8h30-12h00<br />14h00-17h30</p>
+        </div>
+        <div class="partie4">
+          <img src="images/logo-blanc.png" alt="Logo Bayeux Intercom" style="width:170px; margin-right:1%;">
+        </div>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.80632551697!2d-0.7091916844290209!3d49.28006697933105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480bacadf28217eb%3A0x81033eeef083791e!2sBayeux%20Intercom!5e0!3m2!1sfr!2sfr!4v1569853272864!5m2!1sfr!2sfr"
+        width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+      <p style="text-align: center; color: #fff">© Bayeux Intercom 2019 - Site projet IUT info Paris Descartes</p>
+    </footer>
+
+  </div>
+  
+</body>
+
+</html>
